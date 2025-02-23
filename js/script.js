@@ -1,17 +1,17 @@
-"use strict";
+// "use strict";
 // STEP 1
 
 /*
 Convert the following highlighted identifiers to Camel Case notation
 */
 
-let someMonth;
-function theMonth() {
-    return ""
-}
-let currentMonth;
-let summerMonth;
-let myLibraryFunction;
+// let someMonth;
+// function theMonth() {
+//     return ""
+// }
+// let currentMonth;
+// let summerMonth;
+// let myLibraryFunction;
 
 
 /*
@@ -20,21 +20,21 @@ a string literal expression,
 a boolean literal expression, 
 and null literal expression
 */
-1;
-'Hello World';
-false;
-null;
-let numericalLiteral = 1;
-let stringLiteral = "RawString";
-let isFalse = false;
-let isNull = null;
+// 1;
+// 'Hello World';
+// false;
+// null;
+// let numericalLiteral = 1;
+// let stringLiteral = "RawString";
+// let isFalse = false;
+// let isNull = null;
 
 // Step 3
-function someFunc() {
-    return "someName"
-}
-let yearMD = "2025" + "03" + "22"
-let whatIsValue = someFunc()
+// function someFunc() {
+//     return "someName"
+// }
+// let yearMD = "2025" + "03" + "22"
+// let whatIsValue = someFunc()
 
 
 
@@ -185,11 +185,11 @@ let whatIsValue = someFunc()
 // console.log(testTruthy(last, badPassword));
 
 // Step 23
-var email = "someValue@mail.com";
-var badPassword = "12345";
+// var email = "someValue@mail.com";
+// var badPassword = "12345";
 
-var last = email.split("@")
-function testFalsey(splitEmail, badPassword){
-    return badPassword.length <= 4 || last[1] != "mail.com" ;
-}
-console.log(testFalsey(last, badPassword));
+// var last = email.split("@")
+// function testFalsey(splitEmail, badPassword){
+//     return badPassword.length <= 4 || last[1] != "mail.com" ;
+// }
+// console.log(testFalsey(last, badPassword));
